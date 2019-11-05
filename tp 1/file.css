@@ -1,0 +1,126 @@
+#myform{
+    color: blue;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.diva {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+}
+
+.divb {
+    width: 100%;
+    height: 25%;
+    background-color: aqua;
+}
+
+.divc {
+    width: 25%;
+    height: 75%;
+    background-color: blueviolet;
+    float: left;
+}
+
+.divd {
+    width: 50%;
+    height: 75%;
+    background-color: brown;
+    float: left;
+}
+
+.dive {
+    width: 25%;
+    height: 75%;
+    background-color: black;
+    float: left;
+}
+.clear {
+    clear: both;
+}
+
+.div1 {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+}
+
+.div1-1 {
+    width: 100%;
+    height: 20%;
+    background-color: blue;
+}
+.div1-2 {
+    width: 100%;
+    height: 10%;
+    background-color: blueviolet;
+}
+
+.div1-3 {
+    width: 100%;
+    height: 50%;
+}
+
+.div1-4-1 {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.div1-4-1-1 {
+    width: 50%;
+    height: 50%;
+    float: left;
+    padding: 1px;
+}
+
+.bgred {
+    background-color: red;
+}
+
+.bgyellow {
+    background-color: yellow;
+}
+
+.bgbrown {
+    background-color: brown;
+}
+
+.bggreen {
+    background-color: green;
+}
+
+.whdiv {
+    width: 300px;
+    height: 100px;
+    float: left;
+    margin: 20px;
+}
+
+.b1 {
+    border: 3px blue dashed;
+}
+
+.b2 {
+    border: 1px red dotted;
+}
+
+.b3 {
+    border: 2px yellow solid;
+}
+
+.b4 {
+    border: 4px green outset;
+}
+
+.b5 {
+    border: 3px blue dashed;
+    text-align: right;
+}
+
+.b6 {
+    border: 2px yellow solid;
+    float: right;
+}

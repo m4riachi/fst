@@ -1,0 +1,49 @@
+body{
+    margin: 40px;
+}
+
+li {
+    width: 200px;
+    padding: 20px;
+    background:black;
+    color:white;
+    list-style:none;
+    font-weight: bold;
+}
+li.nav {
+    float: left;
+}
+
+li.submenu {
+    float: left;
+}
+
+li a{
+    color:white;
+    text-decoration: none;
+}
+
+li.nav ul{
+    margin-top: 20px;
+}
+
+.i2, .i3 {
+    display: none;
+}
+
+li.submenu:hover > ul.i2{
+    display: block;
+}
+
+li.submenu:hover > a .i3{
+    display: inline-block;
+}
+
+li.submenu:hover > a .i1{
+    display: none;
+}
+
+
+li.submenu:hover{
+    padding-bottom: 0px;;
+}

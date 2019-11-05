@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="file.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <form action="" id="myform">
+        Name <input type="text" required /><br/><br/>
+        Phone <input type="tel" /><br/><br/>
+        Email <input type="email" /><br/><br/>
+
+        <fieldset>
+            <legend>Which taxi do you require?</legend>
+            <input type="radio" name="taxi" /> Car<br/>
+            <input type="radio" name="taxi" /> Van<br/>
+            <input type="radio" name="taxi" /> Tuk Tuk
+        </fieldset>
+        <br/>
+        <fieldset>
+            <legend>Extra</legend>
+            <input type="checkbox" name="baby_seat" /> Baby Seat<br/>
+            <input type="checkbox" name="wheelchair_access" /> Wheelchair Access<br/>
+            <input type="checkbox" name="stock_tip" /> Stock Tip
+        </fieldset>
+        <br/>
+        Pickup Date/Time <input type="datetime-local" /><br/><br/>
+        Other Date <input type="date" /><br/><br/>
+        Choose a number <input type="number" style="width: 40px;"/><br/><br/>
+        Just Slide it <input type="range"/><br/><br/>
+        Choose a color <input type="color" value="#f9ff00"/><br/><br/>
+        <fieldset>
+                <legend>Choose a name</legend>
+                <input type="text" list="prenoms"/><br/>
+                <datalist id="prenoms">
+                    <option>Mohcine</option>
+                    <option>Taoufiq</option>
+                    <option>Elhoussein</option>
+                </datalist>
+
+        </fieldset>
+        <br>
+        <br>
+        <input type="submit" value="Envoyer">
+    </form>
+</body>
+</html>
