@@ -1,0 +1,58 @@
+.diva{
+    width: 500px;
+    height: 300px;
+    background: white;
+    margin: auto;
+    margin-top: calc( calc(100vh - 300px) / 2);
+    border-top: #ffa9a9 solid 10px;;
+    border-radius: 20px;
+    padding: 0 40px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  /* Style the form icons */
+  .icon {
+    color:gray;
+    min-width: 50px;
+    text-align: center;
+    position: absolute;
+    margin-top: 13px;
+  }
+  
+  /* Style the input fields */
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    padding-left: 40px;
+  }
+  
+  .input-field:focus {
+    border: 2px solid #ffa9a9;
+    border-radius: 4px;;
+    font-weight: bold;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: #ffa9a9;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 4px;;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }

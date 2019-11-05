@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+header {
+    width: 980px;
+    height: 150px;
+    background-color: salmon;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+nav {
+    width: 180px;
+    height: 450px;
+    background-color: salmon;
+    float: left;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+section {
+    width: 630px;
+    height: 450px;
+    background-color: salmon;
+    float: left;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+aside {
+    width: 120px;
+    height: 450px;
+    background-color: salmon;
+    float: left;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+article {
+    width: 610px;
+    height: 38%;
+    margin: 10px;
+    background-color: orchid;
+    border: 1px solid black;
+}
+
+footer {
+    width: 980px;
+    height: 150px;
+    background-color: salmon;
+    margin: 10px;
+    border: 1px solid black;
+
+}
+
+#sheader {
+    width: 610px;
+    margin: 10px;
+    height: 25%;
+    background-color: orchid;
+}
+
+#sfooter {
+    width: 610px;
+    margin: 10px;
+    height: 25%;
+    background-color: orchid;
+    border: 1px solid black;
+}
+
+div {
+    width: 1000px;
+    margin: auto;
+}
+.clear {
+    clear: both;
+}
