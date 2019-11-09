@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <img src="1.jpg" id="image" width="600" height="400"/><br /><br />
+
+    <input type="radio" name="changers" value="1.jpg" checked/> 1<br />
+    <input type="radio" name="changers" value="2.jpg"/> 2<br />
+    <input type="radio" name="changers" value="3.jpg"/> 3<br />
+    <input type="radio" name="changers" value="4.jpg"/> 4<br />
+    <input type="radio" name="changers" value="5.jpg"/> 5<br />
+
+    <button>Change</button>
+
+    <script type="text/javascript">
+        document.getElementsByTagName('button')[0].onclick = function(e) {
+            document.getElementById('image').src = document.querySelector('input[name="changers"]:checked').value;
+        };
+    </script>
+</body>
+</html>
