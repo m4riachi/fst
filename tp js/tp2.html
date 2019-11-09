@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        setInterval(function () {
+            var ar_color = ["#ae1e1e", "#1c1414", "#343286", "#1dbb44", "#c81471", "#c8ac14", "#F08080", "#808000", "#00FFFF", "#FF00FF", "#800080"];
+            
+            document.body.style.background = ar_color[Math.floor(Math.random() * (ar_color.length - 1))];
+        }, 200)
+    </script>
+</body>
+</html>

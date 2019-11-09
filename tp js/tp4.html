@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h3>How many people would you like to invite? </h3>
+    <input type="number" id="number" />
+    <br/><br/>
+    <div id="email"></div>
+
+    <script type="text/javascript">
+        document.getElementById('number').onchange = function () {
+            var divE = document.getElementById('email');
+
+            divE.innerHTML = '';
+
+            if (this.value > 0) {
+                var eBr = document.createElement('br');
+
+                var eSpan = document.createElement('span');
+                eSpan.innerHTML = "Enter the Invite's info .";
+                divE.appendChild(eSpan);
+
+                var eBr = document.createElement('br');
+                divE.appendChild(eBr);
+
+                for ($i = 0; $i < this.value; $i++) {
+                    var eInput = document.createElement('input');
+                    eInput.setAttribute('type', 'text');
+                    divE.appendChild(eInput);
+
+                    var eBr = document.createElement('br');
+                    divE.appendChild(eBr);
+
+                    var eBr = document.createElement('br');
+                    divE.appendChild(eBr);
+                }
+
+                var eInput = document.createElement('input');
+                eInput.setAttribute('type', 'button');
+                eInput.value = "Send Invitation";
+                divE.appendChild(eInput);
+            }
+            
+        }
+    </script>
+    
+</body>
+</html>
